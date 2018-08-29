@@ -1,0 +1,43 @@
+{
+  "name": "h2-follow-redirects",
+  "version": "0.0.1",
+  "description": "HTTP2 , HTTP and HTTPS modules that follow redirects",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec",
+    "watch-test": "mocha --recursive --watch --reporter spec",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha test/**/*.js --report lcovonly -- -R spec && cat ./coverage/lcov.info"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "istanbul": "0.4.5",
+    "http2-debug": "1.2.0"
+  },
+  "dependencies": {
+    "http2-client": "1.1.0",
+    "follow-redirects": "1.5.7"
+  },
+  "keywords": [
+    "http2",
+    "redirect",
+    "http2 client",
+    "utility",
+    "location",
+    "request",
+    "compatible",
+    "client",
+    "compatibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hisco/h2-follow-redirects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hisco/h2-follow-redirects/issues"
+  },
+  "homepage": "https://github.com/hisco",
+  "author": "Eyald <hisco@googlegroups.com‬>",
+  "license": "MIT"
+}
