@@ -124,7 +124,7 @@ http2.get('https://www.google.com', (response) =>{
 ## License
 
   [MIT](LICENSE)
-
+ 
 [npm-image]: https://img.shields.io/npm/v/node-follow-redirects.svg
 [npm-url]: https://npmjs.org/package/node-follow-redirects
 [travis-image]: https://img.shields.io/travis/hisco/node-follow-redirects/master.svg?style=flat-square
