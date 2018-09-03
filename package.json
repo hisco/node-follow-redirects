@@ -1,5 +1,5 @@
 {
-  "name": "h2-follow-redirects",
+  "name": "node-follow-redirects",
   "version": "0.0.1",
   "description": "HTTP2 , HTTP and HTTPS modules that follow redirects",
   "main": "lib/index.js",
@@ -16,7 +16,7 @@
     "http2-debug": "1.2.0"
   },
   "dependencies": {
-    "http2-client": "1.1.0",
+    "http2-client": "1.2.1",
     "follow-redirects": "1.5.7"
   },
   "keywords": [
@@ -32,10 +32,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hisco/h2-follow-redirects.git"
+    "url": "https://github.com/hisco/node-follow-redirects.git"
   },
   "bugs": {
-    "url": "https://github.com/hisco/h2-follow-redirects/issues"
+    "url": "https://github.com/hisco/node-follow-redirects/issues"
   },
   "homepage": "https://github.com/hisco",
   "author": "Eyald <hisco@googlegroups.com‬>",
