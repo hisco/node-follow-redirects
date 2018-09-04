@@ -1,6 +1,6 @@
 {
   "name": "node-follow-redirects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "HTTP2 , HTTP and HTTPS modules that follow redirects",
   "main": "lib/index.js",
   "scripts": {
