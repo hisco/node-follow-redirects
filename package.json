@@ -16,7 +16,7 @@
     "http2-debug": "1.2.0"
   },
   "dependencies": {
-    "http2-client": "1.2.1",
+    "http2-client": "1.2.2",
     "follow-redirects": "1.5.7"
   },
   "keywords": [
