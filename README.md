@@ -1,4 +1,7 @@
 # Node follow redirects
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/hisco/node-follow-redirects.svg)](https://greenkeeper.io/)
+
 Drop-in replacement for Nodes http and https that automatically follows redirects, it can also follow http2 redirects.
 
 [![NPM Version][npm-image]][npm-url]
